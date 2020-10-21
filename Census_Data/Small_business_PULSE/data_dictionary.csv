@@ -1,0 +1,12 @@
+ITEM NAME,ITEM DESCRIPTION
+ST,State postal code
+NAICS_SECTOR,North American Industrial ClassificationSystem (NAICS) 2-digit sector code
+NAICS3_CODE,North American Industrial ClassificationSystem (NAICS) 3-digit sector code
+MSA,Metropolitan Statistical Area (MSA) name
+CBSA_CODE,Core Based Statistical Area (CBSA) code
+EMPCLASS,"Employment size class of business (A=1-4, B=5-19, C=20 or more employees)"
+INSTRUMENT_ID,Question number from the SBPS instrument
+ANSWER_ID,Answer number from the SBPS instrument; note that these are unique only within each question and should be used with INSTRUMENT_ID.
+ESTIMATE_PERCENTAGE,"The weighted percent of responses for the (INSTRUMENT_ID, ANSWER_ID)"
+SE,The standard error for the corresponding ESTIMATE_PERCENTAGE
+URR,"Unit response rate.  See ""How the data are collected"" for more information."
